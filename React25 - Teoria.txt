@@ -1,0 +1,3 @@
+Jeśli nie podamy tablicy dependencji, useEffect będzie uruchamiał się po każdym renderowaniu komponentu. 
+Gdy fetch() zmieni stan przez setState, komponent wyrenderuje się ponownie i efekt wykona się jeszcze raz, 
+co może spowodować nieskończoną pętlę.
